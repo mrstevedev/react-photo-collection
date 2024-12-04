@@ -59,11 +59,11 @@ img {
     display: flex;
     flex-direction: column;
     z-index: 3;
-  
+
     .logo {
       width: 155px;
     }
-  
+
     .logo-sub-txt {
       font-size: 0.7rem;
       letter-spacing: 7px;
@@ -94,7 +94,7 @@ img {
 .vertical {
   position: fixed;
   z-index: 1;
-  padding: 3.5rem 0 0 0;
+  padding: 1rem 0 0 0;
   height: 100vh;
   background: #000;
   ul {
@@ -171,7 +171,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 64%;
+    height: 96%;
     padding: 0 1rem;
     line-height: 0px;
 
@@ -491,9 +491,9 @@ section.vert footer {
   .desktop {
     display: block;
   }
-    .mobile {
-      display: none;
-    }
+  .mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 1420px) {
@@ -501,7 +501,9 @@ section.vert footer {
     padding: 5rem;
     display: block;
   }
-  .desktop { display: none }
+  .desktop {
+    display: none;
+  }
   .mobile {
     display: block;
   }
@@ -519,7 +521,7 @@ section.vert footer {
       display: none;
     }
 
-    .logo  {
+    .logo {
       width: 135px !important;
     }
 
@@ -533,7 +535,11 @@ section.vert footer {
       text-align: center;
       margin: 0 1rem;
     }
-    img { margin: 2rem 0 0rem 0; box-shadow: 0px 8px 18px #868686; border-radius: 4px; }
+    img {
+      margin: 2rem 0 0rem 0;
+      box-shadow: 0px 8px 18px #868686;
+      border-radius: 4px;
+    }
     section:first-child {
       img {
         margin: 6rem 0 0 0;
@@ -562,7 +568,7 @@ section.vert footer {
     align-items: center;
     position: absolute;
     z-index: 1;
-    background: rgba(0,0,0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     width: 78%;
     height: 81%;
     margin: 6rem 3rem;
@@ -572,37 +578,37 @@ section.vert footer {
       font-size: 2rem;
       color: #fff;
     }
-}
+  }
 
-.overlay__info {
-  visibility: hidden;
-  position: absolute;
-  z-index: 1;
-  background: rgba(0,0,0,1);
-  width: 100%;
-  height: 87%;  
-  margin: 2rem 0rem 1rem 0;
-  border-radius: 4px;
-  flex-direction: column;
-  z-index: 2; 
-  color: #fff;
-  .overlay__info--close {
+  .overlay__info {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 1);
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 1rem;
-  }
-  h4 {
-    font-size: 0.8rem;
-  }
-  .overlay__row {
-    margin: 0.6rem 0;
-    p {
-      font-weight: 100;
+    height: 87%;
+    margin: 2rem 0rem 1rem 0;
+    border-radius: 4px;
+    flex-direction: column;
+    z-index: 2;
+    color: #fff;
+    .overlay__info--close {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding: 1rem;
+    }
+    h4 {
       font-size: 0.8rem;
     }
+    .overlay__row {
+      margin: 0.6rem 0;
+      p {
+        font-weight: 100;
+        font-size: 0.8rem;
+      }
+    }
   }
-}
   .cookies__notification {
     right: 0 !important;
     width: 100% !important;
@@ -684,7 +690,9 @@ section.vert footer {
     position: initial !important;
     width: initial !important;
   }
-  .separator { display: none; }
+  .separator {
+    display: none;
+  }
   .about {
     padding: 2rem 3rem;
     line-height: 32px;
@@ -698,7 +706,7 @@ section.vert footer {
     color: #ffffff !important;
     font-size: 1rem !important;
     line-height: 26px !important;
-}
+  }
   .contact {
     display: initial;
     height: 100%;
@@ -732,10 +740,10 @@ section.vert footer {
       text-transform: capitalize;
     }
   }
-  .admin__page-container  {
+  .admin__page-container {
     main {
       width: 100% !important;
-    }    
+    }
   }
 }
 
@@ -880,10 +888,10 @@ section.vert footer {
   }
 
   .cookies__notification-acceptBtn {
-    background: #a9a9ff;
+    background: #738bea;
 
     &:hover {
-      background: #8282de;
+      background: #879ef7;
     }
   }
 
@@ -900,11 +908,11 @@ section.vert footer {
 .admin__page-container {
   width: 1250px;
   margin: 0 auto;
-  input[type=text],
-  input[type=file] {
+  input[type="text"],
+  input[type="file"] {
     display: block;
   }
-  input[type=text] {
+  input[type="text"] {
     border: none;
     border-radius: 0px;
     width: 274px;
@@ -938,7 +946,7 @@ section.vert footer {
     button {
       display: block;
       background: #000;
-      border: none; 
+      border: none;
       border-radius: 5px;
       width: 108px;
       height: 38px;
@@ -948,10 +956,10 @@ section.vert footer {
       color: #fff;
       margin: 1rem 0;
       // text-transform: uppercase;
-      font-family: 'helveticaneue';
+      font-family: "helveticaneue";
       cursor: pointer;
       box-shadow: 0px 0px 8px #909090;
-      transition: .12s ease-in-out;
+      transition: 0.12s ease-in-out;
 
       &:hover {
         box-shadow: none;
@@ -962,97 +970,97 @@ section.vert footer {
   .admin__dashboard-account {
     position: relative;
 
-  .admin__dashboard-account-toggle {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    background: url("../public/img/rayrooftop.jpg") no-repeat center center;
-    background-size: cover;
+    .admin__dashboard-account-toggle {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      background: url("../public/img/rayrooftop.jpg") no-repeat center center;
+      background-size: cover;
 
-    &.active {
-      box-shadow: 0px 0px 0px 4px rgb(224, 224, 224);
-    }
-  }
-
-  .admin__dashboard-account-dropdown {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    background: #fff;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    width: 200px;
-    top: 3.6rem;
-    right: -1rem;
-    padding: 0;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    transition: 0.12s ease-in-out;
-
-    .admin__dashboard-account-list {
-      list-style: none;
-      font-size: 0.9rem;
-  
-      li {
-        padding: 1rem 1.1rem;
-        border-bottom: solid 1px #efefef;
-        transition: 0.12s ease-in-out;
-  
-        &:hover {
-          background: rgb(245, 245, 245);
-        }
+      &.active {
+        box-shadow: 0px 0px 0px 4px rgb(224, 224, 224);
       }
-  
-      a {
-        color: #000;
-        transition: 0.12s ease-in-out;
-  
+    }
+
+    .admin__dashboard-account-dropdown {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      background: #fff;
+      box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+      width: 200px;
+      top: 3.6rem;
+      right: -1rem;
+      padding: 0;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      transition: 0.12s ease-in-out;
+
+      .admin__dashboard-account-list {
+        list-style: none;
+        font-size: 0.9rem;
+
         li {
           padding: 1rem 1.1rem;
           border-bottom: solid 1px #efefef;
           transition: 0.12s ease-in-out;
-    
+
           &:hover {
-            background: rgb(248, 248, 248);
+            background: rgb(245, 245, 245);
+          }
+        }
+
+        a {
+          color: #000;
+          transition: 0.12s ease-in-out;
+
+          li {
+            padding: 1rem 1.1rem;
+            border-bottom: solid 1px #efefef;
+            transition: 0.12s ease-in-out;
+
+            &:hover {
+              background: rgb(248, 248, 248);
+            }
           }
         }
       }
     }
   }
-}
 
   @keyframes fadeInUp {
     from {
-        transform: translate3d(0,10px,0)
+      transform: translate3d(0, 10px, 0);
     }
-  
+
     to {
-        transform: translate3d(0,0,0);
-        opacity: 1
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
     }
   }
-  
+
   @-webkit-keyframes fadeInUp {
     from {
-        transform: translate3d(0,10px,0)
+      transform: translate3d(0, 10px, 0);
     }
-  
+
     to {
-        transform: translate3d(0,0,0);
-        opacity: 1
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
     }
   }
-  
+
   .animated {
     animation-duration: 0.6s;
     animation-fill-mode: both;
     -webkit-animation-duration: 0.6s;
-    -webkit-animation-fill-mode: both
+    -webkit-animation-fill-mode: both;
   }
-  
+
   .animatedFadeInUp {
-    opacity: 0
+    opacity: 0;
   }
-  
+
   .fadeInUp {
     opacity: 0;
     animation-name: fadeInUp;
@@ -1064,7 +1072,7 @@ section.vert footer {
   }
 }
 
-input[type=file] {
+input[type="file"] {
   opacity: 0;
 }
 
@@ -1078,7 +1086,7 @@ input[type=file] {
 [tooltip]::before,
 [tooltip]::after {
   text-transform: none; /* opinion 2 */
-  font-size: .7em; /* opinion 3 */
+  font-size: 0.7em; /* opinion 3 */
   font-weight: 100;
   line-height: 1;
   user-select: none;
@@ -1088,17 +1096,17 @@ input[type=file] {
   opacity: 0;
 }
 [tooltip]::before {
-  content: '';
+  content: "";
   border: 5px solid transparent; /* opinion 4 */
   z-index: 1001; /* absurdity 1 */
 }
 [tooltip]::after {
   content: attr(tooltip); /* magic! */
-  
+
   /* most of the rest of this is opinion */
   font-family: Helvetica, sans-serif;
   text-align: center;
-  
+
   /* 
     Let the content set the size of the tooltips 
     but this will also keep them from being obnoxious
@@ -1109,8 +1117,8 @@ input[type=file] {
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 1ch 1.5ch;
-  border-radius: .5ch;
-  box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
+  border-radius: 0.5ch;
+  box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
   background: #000;
   color: #fff;
   z-index: 1000; /* absurdity 2 */
@@ -1123,8 +1131,8 @@ input[type=file] {
 }
 
 /* don't show empty tooltips */
-[tooltip='']::before,
-[tooltip='']::after {
+[tooltip=""]::before,
+[tooltip=""]::after {
   display: none !important;
 }
 
@@ -1134,30 +1142,30 @@ input[type=file] {
   border-left-width: 0;
   border-right-color: #000;
   right: calc(0em - 5px);
-  transform: translate(.5em, -50%);
+  transform: translate(0.5em, -50%);
 }
 [tooltip][flow^="right"]::after {
   top: 50%;
   left: calc(100% + 5px);
-  transform: translate(.5em, -50%);
+  transform: translate(0.5em, -50%);
 }
 
 /* KEYFRAMES */
 @keyframes tooltips-vert {
   to {
-    opacity: .9;
+    opacity: 0.9;
     transform: translate(-50%, 0);
   }
 }
 
 @keyframes tooltips-horz {
   to {
-    opacity: .9;
+    opacity: 0.9;
     transform: translate(0, -50%);
   }
 }
 
-/* FX All The Things */ 
+/* FX All The Things */
 [tooltip]:not([flow]):hover::before,
 [tooltip]:not([flow]):hover::after,
 [tooltip][flow^="up"]:hover::before,
